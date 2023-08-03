@@ -20,13 +20,13 @@ const Home = () => {
             <h2 className="text-4xl max-sm:text-2xl">Rahul Sharma</h2>
             <h3 className="text-2xl max-sm:text-lg">
               And I'm a{" "}
-              <span className="text-cyan-400">Frontend Developer</span>
+              <span className="text-cyan-400">Full Stack Web Developer</span>
             </h3>
           </div>
           <div className="mb-5 max-sm:text-sm">
             <p className="font-semibold space">
             I am dedicated and motivated B.Tech Computer Science 4th-year student
-            <br /> seeking an internship opportunity in Frontend Development.
+            <br /> seeking an internship opportunity in Full Stack Web Development.
             <br /> Eager to leverage my technical skills and passion for coding to
             <br /> contribute to innovative projects while gaining valuable industry experience.
             </p>
@@ -56,7 +56,7 @@ const Home = () => {
           <div className=" font-semibold w-[60%] max-md:w-full">
             <h2 className="text-3xl my-14 ml-56 max-md:text-center max-md:mx-5 max-md:ml-3 max-sm:text-2xl">LET ME INTRODUCE MYSELF</h2>
             <p className="text-xl mb-4 ml-14 max-md:mx-7 max-sm:text-lg">
-              I am a Frontend Developer And My Skills are{" "}
+              I am a Full Stack Web Developer And My Skills are{" "}
               <span className="text-purple-400">HTML , CSS , Javascript.</span>
             </p>
             <p className="text-xl mb-4 ml-14 max-md:mx-7 max-sm:text-lg">
@@ -66,6 +66,10 @@ const Home = () => {
               </span>
             </p>
             <p className="text-xl mb-4 ml-14 max-md:mx-7 max-sm:text-lg">
+              In Backend development I have Knowledge in Skills are {" "}
+              <span className="text-purple-400">Node.js, Express and Mongo DB.</span>
+            </p>
+            <p className="text-xl mb-4 ml-14 max-md:mx-7 max-sm:text-lg">
               I fall in love with programming and I have at least something, I
               think...
             </p>
@@ -73,11 +77,7 @@ const Home = () => {
               I am fluent in languages like{" "}
               <span className="text-purple-400">Java and Javascript.</span>
             </p>
-            <p className="text-xl mb-4 ml-14 max-md:mx-7 max-sm:text-lg">
-              Whenever possible, I also apply my passion for developing products
-              with Backend framework like{" "}
-              <span className="text-purple-400">Node.js and Express</span>
-            </p>
+            
           </div>
           <div className="mt-24 mr-40 max-md:text-center max-md:mr-0 max-md:flex max-md:justify-center">
             <img src={Avatar} alt=""></img>
